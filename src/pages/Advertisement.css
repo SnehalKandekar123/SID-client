@@ -1,0 +1,117 @@
+.advertisement-hero{
+
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("../assets/banner.PNG");
+
+    background-size:cover;
+    background-position:center;
+
+    height:280px;
+
+    display:flex;
+    align-items:center;
+
+}
+
+.overlay{
+
+    width:100%;
+
+    color:#fff;
+
+}
+
+.advertisement-hero h1{
+
+    font-size:50px;
+    font-weight:bold;
+
+}
+
+.advertisement-hero p{
+
+    font-size:20px;
+
+}
+
+.carousel-img{
+
+    height:520px;
+
+    object-fit:cover;
+
+}
+
+.info-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+    height:100%;
+
+    transition:.4s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.info-card h2{
+
+    color:#0d6efd;
+
+    margin-bottom:20px;
+
+}
+
+.info-card ul{
+
+    padding-left:18px;
+
+}
+
+.info-card li{
+
+    margin-bottom:12px;
+
+    font-size:17px;
+
+}
+
+.advertisement-contact{
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:70px 0;
+
+}
+
+.advertisement-contact h2{
+
+    font-weight:bold;
+
+}
+
+.advertisement-contact .btn{
+
+    margin-top:20px;
+
+    border-radius:50px;
+
+}
+
+.carousel-item{
+
+    transition:transform .8s ease-in-out;
+
+}
