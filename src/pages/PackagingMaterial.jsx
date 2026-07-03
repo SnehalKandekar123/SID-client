@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./PackagingMaterial.css";
 
-import hero from "../assets/PACKAGING MATERIALPNG.PNG";
+import hero from "../assets/packaging-material.webp";
 
 import box from "../assets/PACKAGING MATERIALPNG.PNG";
 import bubble from "../assets/packaging1.PNG";
@@ -23,7 +23,7 @@ function PackagingMaterial() {
   },
      {
     image: tape,
-    title: "Lashing & Ratchet Accessories",
+    title: " Accessories",
     desc: "Ratchet buckles, wire hooks, lashing clips and cargo securing accessories."
   },
      {

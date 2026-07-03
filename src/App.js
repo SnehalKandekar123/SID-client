@@ -14,13 +14,13 @@ import SafetyMaterial from "./pages/SafetyMaterial";
 import PackagingMaterial from "./pages/PackagingMaterial";
 import StationeryMaterial from "./pages/StationeryMaterial";
 
-
+import Footer from "./pages/Footer";
 function App() {
   return (
     <BrowserRouter>
 
       <Navbar />
-
+   
       <Routes>
 
         <Route path="/" element={<Home />} />
@@ -54,6 +54,7 @@ function App() {
 
 
       </Routes>
+   <Footer/>
 
     </BrowserRouter>
   );

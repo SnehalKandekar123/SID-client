@@ -37,7 +37,7 @@ function HandPowerTools() {
     <>
       {/* Hero Section */}
 
-      <section className="category-banner">
+      <section className="hand-tools-banner ">
         <div className="container">
 
           <Link to="/Categories" className="btn btn-light mb-4">
